@@ -1,1 +1,4 @@
-a,b,c
+license_plate,phone_number,email,parkingspot_id,time_of_registration
+13ty,1234567,test@test.dk,5,2023-11-01 14:21:12.973567
+13ty,1234567,test@test.dk,5,2023-11-01 14:21:15.477596
+13ty,1234567,test@test.dk,5,2023-11-01 14:21:18.874483

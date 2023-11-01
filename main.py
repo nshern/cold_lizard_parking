@@ -1,15 +1,12 @@
 from fastapi import FastAPI
 
+from .models import registration
+
 app = FastAPI()
 
 
-@app.get("/", description="This is our first route.", deprecated=True)
-async def root():
-    return {"message": "Hello world!"}
-
-
 @app.post("/")
-async def post():
+async def register_parking():
     return {"message": "Hello from the post route"}
 
 
